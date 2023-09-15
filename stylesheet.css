@@ -81,28 +81,44 @@ tr,
 p,
 a {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px
+    font-size: 20px
 }
 
 strong {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
+}
+color_strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+    font-weight: 1000
 }
 
 heading {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 papertitle {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 700
 }
 
 name {
     font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 40px;
+}
+
+status {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+bio {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .one {

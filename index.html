@@ -17,11 +17,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" type="image/png" href="images/seal_icon.png">
+	<link rel="icon" type="image/png" href="images/ucr_logo.png">
 </head>
 
 <body>
-<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 <tr style="padding:0px">
 	<td style="padding:0px">
 		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -30,19 +30,31 @@
 				<p style="text-align:center">
 					<name>Runze Li</name>
 				</p>
-				<p>I am a third-year Ph.D student majoring in Computer Science in the <a href="https://www1.cs.ucr.edu/">Department of Computer Science and Engineering</a> at <a href="https://www.ucr.edu/">University of California Riverside</a>, where I work on computer vision.
+				<p style="text-align: center">
+					<status>Ph.D candidate</status>
 				</p>
-				<p>
-					At UCR, I am from <a href="https://www.vislab.ucr.edu/">VisLab</a>, advised by <a href="https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php">Bir Bhanu</a>.
-					I did my masters and bachelors at the <a href="https://www.unimelb.edu.au/">University of Melbourne</a> and the <a href="https://english.bupt.edu.cn/">Beijing University of Posts and Telecommunications</a> respectively.
+				
+				<p style="text-align: center">Department of Computer Science and Engineering, UC Riverside.
 				</p>
+
 				<p style="text-align:center">
 					<a href="mailto:runze.li@email.ucr.edu">Email</a> &nbsp/&nbsp
 					<a href="data/RunzeLi-CV.pdf">CV</a> &nbsp/&nbsp
-					<!--<a href="data/JonBarron-bio.txt">Biography</a> &nbsp/&nbsp-->
 					<a href="https://scholar.google.com/citations?user=bCvdh54AAAAJ&hl=en">Google Scholar</a>
-					<!--<a href="https://www.facebook.com/barron.jon">Social</a>-->
 				</p>
+				<strong><heading>Bio</heading></strong>
+				<p>
+					<bio>I am a final-year Ph.D in Computer Science and Engineering at the University of California Riverside with 
+						<a href="https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php">Bir Bhanu</a> as my advisor. 
+						I obtained my master degree at the <a href="https://www.unimelb.edu.au/">University of Melbourne</a> 
+						and bachelor degree at the <a href="https://english.bupt.edu.cn/">Beijing University of Posts and Telecommunications</a>
+						<br>
+						<br>
+						I worked as a Research Intern at <a href="https://arvr.google.com/">Google AR</a>, <a href="https://www.deepmind.com/">Google Brain (now Google DeepMind)</a>, <a href="https://www.innopeaktech.com/research">OPPO US Research</a>, 
+						<a href="//www.linkedin.com/company/uii-america-inc/">UII America</a>, and <a href="https://www.siemens.com/us/en.html">Siemens</a>.
+					</bio>
+				</p>
+
 			</td>
 			<td style="padding:2.5%;width:40%;max-width:40%">
 				<a href="images/RunzeLi.JPG"><img style="width:100%;max-width:100%" alt="profile photo" src="images/RunzeLi.JPG" class="hoverZoomLink"></a>
@@ -52,9 +64,9 @@
 		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 		<tr>
 			<td style="padding:20px;width:100%;vertical-align:middle">
-				<heading>Research</heading>
+				<strong><heading>Research</heading></strong>
 				<p>
-					I'm interested in computer vision, papers are <span class="highlight">highlighted</span>.
+					I'm interested in computer vision, 3D vision, vision-language pre-training, papers are <span class="highlight">highlighted</span>.
 				</p>
 			</td>
 		</tr>
@@ -62,7 +74,129 @@
 
 		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+		<!-- TMLR 2023 -->
 		<tr>
+			<td style="padding:20px;width:25%;vertical-align:middle">
+				<img src="images/reclip.png" alt="PontTuset" width="250" style="border-style: none">
+			</td>
+			<td width="75%" valign="middle">
+				<a href="https://arxiv.org/pdf/2304.06028.pdf" id="reclip">
+					<papertitle>RECLIP: Resource-efficient CLIP by Training with Small Images</papertitle>
+				</a>
+				<br>
+				<strong>Runze Li&#42;</strong>, <a href="https://mcahny.github.io/">Dahun Kim</a>, <a href="https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php">Bir Bhanu</a>, <a href="https://weichengkuo.github.io/">Weicheng Kuo</a>
+				<br>
+				<em>Transactions on Machine Learning Research (<strong>TMLR</strong>)</em>, 2023
+				<br>
+				<!--<a href="data/PontTusetTPAMI2017.bib">bibtex</a> /-->
+				<!-- <a href="https://arxiv.org/abs/1911.07389">arxiv</a>
+				<p></p> -->
+				<p>We present RECLIP (Resource-efficient CLIP), a simple method that minimizes computational resource footprint for CLIP (Contrastive Language Image Pretraining). 
+					Inspired by the notion of coarse-to-fine in computer vision, we leverage small images to learn from large-scale language supervision efficiently, 
+					and finetune the model with high-resolution data in the end.</p>
+			</td>
+		</tr>
+
+		<!-- TCSVT 2022 -->
+		<tr>
+			<td style="padding:20px;width:25%;vertical-align:middle">
+				<img src="images/monoindoor_pp.png" alt="PontTuset" width="250" style="border-style: none">
+			</td>
+			<td width="75%" valign="middle">
+				<a href="https://ieeexplore.ieee.org/abstract/document/9893171" id="monoindoor_pp">
+					<papertitle>MonoIndoor++: Towards Better Practice of Self-Supervised Monocular Depth Estimation for Indoor Environments
+					</papertitle>
+				</a>
+				<br>
+				<strong>Runze Li&#42;</strong>, <a href="https://sites.google.com/view/panji530">Pan Ji</a>, <a href="https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php">Bir Bhanu</a>, 
+				<a href="https://www.linkedin.com/in/yi-xu-42654823/">Yi Xu</a>
+				<br>
+				<em>IEEE Transactions on Circuits and Systems for Video Technology (<strong>T-CSVT</strong>)</em>, 2022 (extensions from our ICCV 2021 paper.)
+				<br>
+				<p>We propose (1) a depth factorization module to estimate a global depth scale factor, which helps the depth network
+					adapt to the rapid scale changes for indoor environments during model training, (2) a residual pose estimation module that mitigates the inaccurate 
+					camera rotation prediction issue in the pose network and in turn improves monocular depth estimation performance, (3) incorporate coordinates 
+					convolutional encoding to leverage coordinates cues in inducing relative camera poses.</p>
+			</td>
+		</tr>
+
+		<!-- IBIOM 2022 -->
+		<tr>
+			<td style="padding:20px;width:25%;vertical-align:middle">
+				<!-- <img src="images/cvpr2020.png" alt="PontTuset" width="160" style="border-style: none"> -->
+			</td>
+			<td width="75%" valign="middle">
+				<a href="https://ieeexplore.ieee.org/abstract/document/9866115" id="face">
+					<papertitle>Face Synthesis With a Focus on Facial Attributes Translation Using Attention Mechanisms</papertitle>
+				</a>
+				<br>
+				<strong>Runze Li&#42;</strong>, <a href="https://www.linkedin.com/in/tomaso-fontanini-579a56130/?originalSubdomain=it">Tomaso Fontanini</a>, 
+				<a href="https://personale.unipr.it/en/ugovdocenti/person/177573">Andrea Prati</a>, 
+				<a href="https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php">Bir Bhanu</a>				
+				<br>
+				<em> IEEE Transactions on Biometrics, Behavior, and Identity Science (<strong>T-BIOM</strong>)</em>, 2022
+				<br>
+				<!--<a href="data/PontTusetTPAMI2017.bib">bibtex</a> /-->
+				<p>We propose to (1) visually interpret conditional GANs for facial attribute translation by using a gradient-based attention mechanism. 
+					and (2) new learning objectives for knowledge distillation using attention in generative adversarial training, 
+					which result in improved synthesized face results, reduced visual confusions and boosted training for GANs in a positive way. 
+				</p>
+			</td>
+		</tr>
+
+		<!-- 3DV 2021 -->
+		<tr>
+			<td style="padding:20px;width:25%;vertical-align:middle">
+				<img src="images/vhmr.png" alt="PontTuset" width="250" style="border-style: none">
+			</td>
+			<td width="75%" valign="middle">
+				<a href="https://arxiv.org/pdf/2107.12847.pdf" id="vhmr">
+					<papertitle>Learning Local Recurrent Models for Human Mesh Recovery</papertitle>
+				</a>
+				<br>
+				<strong>Runze Li&#42;</strong>, <a href="https://karanams.github.io/">Srikrishna Karanam</a>, <a href="https://www.linkedin.com/in/terrencechen/">Terrence Chen</a>,
+				<a href="https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php">Bir Bhanu</a>, <a href="http://wuziyan.com/">Ziyan Wu</a>,
+				<br>
+				<em>International Conference on 3D Vision (<strong>3DV</strong>)</em>, 2021
+				<br>
+				<!--<a href="data/PontTusetTPAMI2017.bib">bibtex</a> /-->
+				<p></p>
+				<p>
+				We present (1) a new method for video mesh recovery that divides the human mesh into several local parts following the standard skeletal model, 
+				(2) model the dynamics of each local part with separate recurrent models, with each model conditioned appropriately based on the known kinematic structure 
+				of the human body and this results in a structure-informed local recurrent learning architecture that can be trained in an end-to-end fashion with available annotations. W
+				</p>
+			</td>
+		</tr>
+
+		<!-- ICCV 2021 -->
+		<tr>
+			<td style="padding:20px;width:25%;vertical-align:middle">
+				<img src="images/monoindoor.png" alt="PontTuset" width="250" style="border-style: none">
+			</td>
+			<td width="75%" valign="middle">
+				<a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Ji_MonoIndoor_Towards_Good_Practice_of_Self-Supervised_Monocular_Depth_Estimation_for_ICCV_2021_paper.pdf" id="monoindoor">
+					<papertitle>Monoindoor: Towards good practice of self-supervised monocular depth estimation for indoor environments</papertitle>
+				</a>
+				<br>
+				<strong><a href="https://sites.google.com/view/panji530">Pan Ji</a>&#42;</strong>, <strong>Runze Li&#42;</strong>, 
+				<a href="https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php">Bir Bhanu</a>, 
+				<a href="https://www.linkedin.com/in/yi-xu-42654823/">Yi Xu</a>(&#42 equal contributions)
+				<br>
+				<em>IEEE/CVF International Conference on Computer Vision (<strong>ICCV</strong>)</em>, 2021
+				<br>
+				<!--<a href="data/PontTusetTPAMI2017.bib">bibtex</a> /-->
+				<p></p>
+				<p>We propose the MonoIndoor, which consists of two novel modules: a depth factorization module and a residual pose estimation module. In the depth factorization
+					module, we factorize the depth map into a global depth scale and a relative depth map. The depth scale factor is separately predicted by an extra branch 
+					in the depth network. In the residual pose estimation module, we mitigate the issue of inaccurate rotation prediction by performing residual pose estimation in addition to an initial large
+					pose prediction.
+				</p>
+			</td>
+		</tr>
+
+		<!-- ICPR 2020 -->
+		<!-- <tr>
 			<td style="padding:20px;width:25%;vertical-align:middle">
 				<img src="images/cvpr2020.png" alt="PontTuset" width="160" style="border-style: none">
 			</td>
@@ -75,20 +209,67 @@
 				<br>
 				<em>CVPR</em>, 2020, <strong>Oral</strong>
 				<br>
-				<!--<a href="data/PontTusetTPAMI2017.bib">bibtex</a> /-->
 				<a href="https://arxiv.org/abs/1911.07389">arxiv</a>
 				<p></p>
 				<p>we take a step towards bridging this crucial gap, proposing the first technique to visually explain VAEs by means of gradient-based attention. We present methods to generate visual attention from the learned latent space, and also demonstrate such attention explanations serve more than just explaining VAE predictions.</p>
 			</td>
-		</tr>
+		</tr> -->
 
-
+		<!-- cvpr 2020 -->
 		<tr>
 			<td style="padding:20px;width:25%;vertical-align:middle">
-				<img src="images/cvprw2019.png" alt="PontTuset" width="160" style="border-style: none">
+				<img src="images/cvpr2020.png" alt="PontTuset" width="250" style="border-style: none">
 			</td>
 			<td width="75%" valign="middle">
-				<a href="https://drive.google.com/file/d/1BHcXrsYQqv0f-yF7swzHeHEH9F_zHCdr/view?usp=sharing" id="cvprw2019_conference">
+				<a href="https://drive.google.com/file/d/1G5Wvu-REYyxWqYaFp7D7VG7jdtEn0h9w/view?usp=sharing" id="cvpr2020_conference">
+					<papertitle>Towards Visually Explaining Variational Autoencoders</papertitle>
+				</a>
+				<br>
+				<strong>Wenqian Liu&#42;</strong>, <strong>Runze Li&#42;</strong>, <a href="http://homepages.rpi.edu/~zhengm3/">Meng Zheng</a>, <a href="https://karanams.github.io/">Srikrishna Karanam</a>, <a href="http://wuziyan.com/">Ziyan Wu</a>, <a href="https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php">Bir Bhanu</a>, <a href="https://www.ecse.rpi.edu/~rjradke/index.html">Richard J. Radke</a>, <a href="https://coe.northeastern.edu/people/camps-octavia/">Octavia Camps</a>. (&#42 equal contributions)
+				<br>
+				<em>IEEE/CVF Computer Vision and Pattern Recognition Conference (<strong>CVPR</strong>)</em>, 2020, <em><color_strong>Oral</color_strong></em>
+				<br>
+				<!--<a href="data/PontTusetTPAMI2017.bib">bibtex</a> /-->
+				<p></p>
+				<p>We propose the first technique to visually explain VAEs by means of gradient-based attention. We present methods to generate visual attention from the 
+					learned latent space, and also demonstrate such attention explanations serve more than just explaining VAE predictions. We show how these attention 
+					maps can be used to localize anomalies in images, and how they can be infused into model training, helping bootstrap the VAE into learning improved 
+					latent space disentanglement.
+				</p>
+			</td>
+		</tr>
+
+		<!-- TCSVT 2023 -->
+		<tr>
+			<td style="padding:20px;width:25%;vertical-align:middle">
+				<img src="images/ema_net.png" alt="PontTuset" width="250" style="border-style: none">
+			</td>
+			<td width="75%" valign="middle">
+				<a href="https://ieeexplore.ieee.org/abstract/document/10159436" id="ema_net">
+					<papertitle>Energy-Motion Features Aggregation Network for Players’ Fine-grained Action Analysis in Soccer Videos</papertitle>
+				</a>
+				<br>
+				<strong>Runze Li</strong>, <a href="https://vislab.ucr.edu/PEOPLE/BIR_BHANU/index.php">Bir Bhanu</a>
+				<br>
+				<em>IEEE Transactions on Circuits and Systems for Video Technology (<strong>T-CSVT</strong>)</em>, 2023
+				<br>
+				<!--<a href="data/PontTusetTPAMI2017.bib">bibtex</a> /-->
+				<p></p>
+				<p>
+					We (1) collect a dataset of highlight videos of soccer players, including two coarse-grained action types of soccer players and six fine-grained actions of players, 
+					and provide annotations for the collected dataset, (2) propose an energy-motion features aggregation network-EMA-Net to fully exploit energy-based 
+					representation of soccer players movements in video sequences and explicit motion dynamics of soccer players in videos for soccer players’ fine-grained action analysis.
+				</p>
+			</td>
+		</tr>
+
+		<!-- cvprw 2019 -->
+		<tr>
+			<td style="padding:20px;width:25%;vertical-align:middle">
+				<img src="images/cvprw19.png" alt="PontTuset" width="250" style="border-style: none">
+			</td>
+			<td width="75%" valign="middle">
+				<a href="https://openaccess.thecvf.com/content_CVPRW_2019/papers/CVSports/Li_Fine-Grained_Visual_Dribbling_Style_Analysis_for_Soccer_Videos_With_Augmented_CVPRW_2019_paper.pdf" id="cvprw2019_conference">
 					<papertitle>Fine-grained Visual Dribbling Style Analysis for Soccer Videos with Augmented Dribble Energy Image</papertitle>
 				</a>
 				<br>
@@ -96,16 +277,18 @@
 				<br>
 				<em>CVPR Sports Workshop</em>, 2019
 				<br>
-				<a href="data/cvprw2019.bib">bibtex</a>
+				<!-- <a href="data/cvprw2019.bib">bibtex</a> -->
 				<p></p>
-				<!--<p>We produce state-of-the-art contours, regions and object candidates, and we compute normalized-cuts eigenvectors 20&times faster.</p>-->
-				<!--<p>This paper subsumes our CVPR 2014 paper.</p>-->
+				<p>We target on these highlight actions and movements in soccer games and focus on dribbling skills performed by the top players. We leverage
+				understanding of complex dribbling video clips by representing a video sequence with a single Dribble Energy Image(DEI) that is informative 
+				for dribbling styles recognition.
+				</p>
 			</td>
 		</tr>
 
 		</tbody></table>
 
-		<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+		<!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
 		<tr>
 			<td>
 				<heading>Service</heading>
@@ -121,31 +304,17 @@
 				<a href="https://2019.acmmm.org/workshops/index.html">Reviwer, ACM MM 2019</a>
 			</td>
 		</tr>
-		<!--<tr>-->
-			<!--<td style="padding:20px;width:25%;vertical-align:middle">-->
-				<!--<img src="images/cs188.jpg" alt="cs188">-->
-			<!--</td>-->
-			<!--<td width="75%" valign="center">-->
-				<!--<a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>-->
-				<!--<br>-->
-				<!--<br>-->
-				<!--<a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>-->
-				<!--<br>-->
-				<!--<br>-->
-				<!--<a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>-->
-			<!--</td>-->
-		<!--</tr>-->
-		</tbody></table>
+		</tbody></table> -->
 
-		<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+		<!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
 		<tr>
 			<td>
 				<heading>Teaching</heading>
 			</td>
 		</tr>
-		</tbody></table>
+		</tbody></table> -->
 
-		<table width="100%" align="center" border="0" cellpadding="20">
+		<!-- <table width="100%" align="center" border="0" cellpadding="20">
 		<tr>
 			<td style="padding:20px;width:25%;vertical-align:middle"><img src="images/ucr_logo.png" width="160"></td>
 			<td width="75%" valign="center">
@@ -160,7 +329,7 @@
 				</p>
 			</td>
 		</tr>
-		</table>
+		</table> -->
 
 		<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 		<tr>
